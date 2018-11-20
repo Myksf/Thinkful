@@ -11,7 +11,7 @@ Suppose that the test is now administered to a person whose disease status is un
 
 1. Be positive
 A. If 1,000,000 people were tested and the given possibility of suffering from Thripshaw's Disease is .5%, then potentially 5,000 would
-   test postive.
+   test postive. (.98 * .005) + (.10 * .995) = .1044 or 10.44%
 
 2. Correctly diagnose a sufferer of Thripshaw's
 A. diagnostic test has a 98% probability of giving a positive result when applied to a person suffering from Thripshaw's Disease
@@ -21,4 +21,6 @@ A. If there is a 10% probablity of a false postitive, then correctly identifing 
 
 4. Misclassify the person
 A. P(Infected| Positive Test) = P(Positive Test| Infected) * P(Infected) / P(Positive Test)
-   = .98 * .005/(.005 * .98 + .98 * .005) = .5 = 50%
+   False Postitive + False Negative = 0.0996 = 9.96%
+   False Positive = (1-.005) * .10 = 0.0995
+   False Negative = .005 * .02 = 0.0001 
