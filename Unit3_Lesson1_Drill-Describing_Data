@@ -1,1 +1,23 @@
+{14, 12, 11, 10, 8, 8, 6}
 
+Mean = (14 + 12 + 11 + 10 + 8 + 8 + 6) / 7 = 9.857143
+Median = 10
+Mode = 8
+
+1.With Python
+  Mean = 9.857142857142858
+  Median = 10.0
+  Mode = ModeResult(mode=array([8]), count=array([2]))
+  Variance = 6.408163265306122
+  Standard deviation = 2.531435020952764
+  Standard deviation error = 0.9567925036515135
+
+2. Median, because if you round the average you arrive at 10. **Review Measures of Central Tendency
+
+
+3. {14, 12, 11, 10, 8, 8, 7}
+
+4. {14, 12, 11, 10, 8, 7, 1}
+
+5. {.2, .23, .17, .05}
+16%
