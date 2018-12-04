@@ -1,0 +1,25 @@
+Monte Hall Problem
+
+Three doors, one door had the prize, the other two doors had a zonk.
+
+You pick one, and then Monte would open one of the other doors reveal a zonk. Then he would ask if you wanted to switch.
+
+Stick or switch?
+
+Switch everytime. 
+Where x is door pwith prize, and y is a zonk
+
+P(x & y) = P (x|y) P (y)
+Is equal to
+P(y & x) = P (y|x) P (x)
+So,
+P(x|y) P(y) = P(y|x) P(x)
+divid by P(y)
+P(x|y) = (P(y|x)P(x))/P(y)
+
+P(x|y) = P(1/2)P(1/3)/P(1/3)
+
+There is a 1/3 chance that the car is behind the initial door picked, and 2/3 behind the door you didn't pick, minus the reveal. It is
+not a guarentee that you will win, but over time, switching is a better strategy over the long term. 
+
+
