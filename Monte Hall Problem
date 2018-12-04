@@ -7,7 +7,8 @@ You pick one, and then Monte would open one of the other doors reveal a zonk. Th
 Stick or switch?
 
 Switch everytime. 
-Where x is door with prize, and y is a zonk
+
+Where x is door with prize, and y is a zonk:
 
 P(x & y) = P (x|y) P (y)
 Is equal to
