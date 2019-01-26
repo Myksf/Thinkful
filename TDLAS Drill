@@ -1,0 +1,36 @@
+TLADS Drill
+ 
+Categorize each of the variables in the European Social Survey Data (ESS) dataset as categorical or continuous, and if continuous as ordinal, interval, or ratio variables.
+
+Categorical: Categorical indicate a nonnumeric catagory in which data is grouped.  
+
+    categorical - cntry, gndr, partner, year
+
+Ordinal variables: Ordinal variables indicate rank-order.
+
+    ordinal- happy, pplfair, pplhlp, sclmeet, sclact
+
+Interval variables: Interval variables indicate both rank-order and distance.
+
+    Interval- idnot, vtot
+
+Ratio variables: Ratio variables indicate rank, distance, and a meaningful absolute zero value – when a ratio variable has a score of 0, we know that none of the quantity measured by the variable is present.
+
+    ratio- agea
+
+ESS Dataset:
+
+cntry  idno  year  tvtot  ppltrst  pplfair  pplhlp  happy  sclmeet  sclact  \
+0    CH   5.0     6    3.0      3.0     10.0     5.0    8.0      5.0     4.0   
+1    CH  25.0     6    6.0      5.0      7.0     5.0    9.0      3.0     2.0   
+2    CH  26.0     6    1.0      8.0      8.0     8.0    7.0      6.0     3.0   
+3    CH  28.0     6    4.0      6.0      6.0     7.0   10.0      6.0     2.0   
+4    CH  29.0     6    5.0      6.0      7.0     5.0    8.0      7.0     2.0   
+
+   gndr  agea  partner  
+0   2.0  60.0      1.0  
+1   2.0  59.0      1.0  
+2   1.0  24.0      2.0  
+3   2.0  64.0      1.0  
+4   2.0  55.0      1.0  
+['CH' 'CZ' 'DE' 'ES' 'NO' 'SE']
